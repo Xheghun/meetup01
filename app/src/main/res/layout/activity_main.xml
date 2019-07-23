@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INPUT YOUR DATA HERE"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:fontFamily="@font/aclonica"
+        android:textColor="#ff6347"/>
+
+    <EditText
+        android:id="@+id/fullName_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textColorHint="#1245a8"
+        android:inputType="text"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/description_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textColorHint="#1245a8"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/location_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textColorHint="#1245a8"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textColorHint="#1245a8"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumber_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textColorHint="#1245a8"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/twitter_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Twitter"
+        android:textColorHint="#1245a8"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/faceBook_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Facebook"
+        android:textColorHint="#1245a8"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/submitData_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:onClick="submitData"/>
+
+
+
+
+</LinearLayout>

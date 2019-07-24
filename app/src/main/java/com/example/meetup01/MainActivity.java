@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
         faceBook = findViewById(R.id.faceBook_editText);
         String inputFacebook = faceBook.getText().toString();
 
+//NOTE: when naming classes in Java, use partial casing
+//meaning each word starts with a capital letter.
         Intent i = new Intent(this, profilepage.class);
 
         i.putExtra ("fullnameInput", inputfullname);
